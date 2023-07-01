@@ -26,3 +26,4 @@ function fetchRandomAdvice() {
 }
 fetchRandomAdvice();
 nasehat.addEventListener("click", fetchRandomAdvice);
+//hopefully i can be better than this in future
