@@ -1,0 +1,53 @@
+@media and (max-width: 800px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#advice {
+  position: relative;
+  text-align: center;
+  margin: 15%;
+  padding: 10%;
+  background-color: rgba(110, 109, 109, 0.7);
+  width: 50%;
+  color: whitesmoke;
+  border-radius: 5%;
+  font-size: 4vw;
+  font-family: "Trirong", serif;
+}
+#foot {
+  font-family: "Trirong", serif;
+  display: block;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  font-size: 2vw;
+  text-decoration: solid;
+  color: whitesmoke;
+}
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
